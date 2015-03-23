@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "WorkTrack",
+  "description": "This is the worktracker",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://vmc/app_dev.php/*"],
+      "css": ["styles.css"],
+      "js": ["jquery.js", "script.js"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+body {
+  backgorund-color: white;
+}
+
+#box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid #AAA;
+  z-index: 9999;
+}
+
+a.red {
+  color: red;
+}
+a.green {
+  color: green;
+}
